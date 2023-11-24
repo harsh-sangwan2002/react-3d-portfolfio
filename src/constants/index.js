@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Full Stack Developer",
     icon: mobile,
   },
   {
@@ -198,12 +198,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Fiverr Shop",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Discover an online shopping paradise! Explore and buy your beloved products effortlessly on our sleek e-commerce platform. Your favorite items are just a click away. Dive in and indulge today!",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
@@ -211,45 +211,53 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "scss",
         color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/harsh-sangwan2003/fiverr-shop",
   },
   {
-    name: "Job IT",
+    name: "Movix App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Experience a cinematic journey with our project! Explore a vast collection of movies from TMDB, curate your favorites, and enjoy seamless login and signup options. Your movie haven awaits!",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tmdbapi",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/harsh-sangwan2003/movix-app",
   },
   {
-    name: "Trip Guide",
+    name: "Alan AI News App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Step into the future of news! Our React.js News App, fueled by AI, transforms how you engage with headlines—empowering you to control the news effortlessly, simply by using your voice.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "alan ai",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +266,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/harsh-sangwan2003/alan-ai-news-app",
   },
 ];
 
