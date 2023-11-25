@@ -6,7 +6,7 @@
 
 A quick guide to my Project ->
 
-<img src = "./public/img.webp">
+<img src = "./public/image.webp">
 
 ## Tools Used
 
