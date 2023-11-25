@@ -15,15 +15,20 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
+import img1 from '../assets/img1.png';
+import img2 from '../assets/img2.png';
+import img3 from '../assets/img3.png';
+import img4 from '../assets/img4.png';
+import img5 from '../assets/img5.png';
+import img6 from '../assets/img6.png';
+import img7 from '../assets/img7.png';
+import company from '../assets/company.jpg';
 
 export const navLinks = [
   {
@@ -118,7 +123,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Tata Power DDL",
-    icon: starbucks,
+    icon: company,
     iconBg: "#383E56",
     date: "Aug 2021 - Oct 2021",
     points: [
@@ -180,7 +185,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: img3,
     source_code_link: "https://github.com/harsh-sangwan2003/fiverr-shop",
   },
   {
@@ -205,7 +210,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+    image: img2,
     source_code_link: "https://github.com/harsh-sangwan2003/movix-app",
   },
   {
@@ -226,9 +231,64 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: img1,
     source_code_link: "https://github.com/harsh-sangwan2003/alan-ai-news-app",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const featuredProjects = [
+  {
+    title: "Movix App",
+    company_name: "React.js, Firebase, JSX, SCSS",
+    icon: img4,
+    iconBg: "#383E56",
+    date: "Oct 2023 - Nov 2023",
+    points: [
+      "Utilizing TMDb API, curate movies in project, managed via React.js.",
+      "Enhanced with react-router-dom, ensuring seamless navigation and interaction.",
+      "CSS stylizes interface, delivering an engaging, visually appealing user experience.",
+      "Effortlessly manage favorite films, offering a dynamic and intuitive platform.",
+    ],
+  },
+  {
+    title: "Portfolio Website",
+    company_name: "HTML, JavaScript, SCSS",
+    icon: img5,
+    iconBg: "#383E56",
+    date: "Sept 2023 - Oct 2023",
+    points: [
+      "This HTML-based site showcases projects, emphasizing creativity and clean design aesthetics.",
+      "JavaScript enhances interactivity, providing smooth animations and user-friendly functionalities.",
+      "SCSS elevates style with custom, modular components for a visually appealing layout",
+      "The portfolio website merges HTML, SCSS, and JS for a seamless, interactive experience.",
+    ],
+  },
+  {
+    title: "File System Organizer",
+    company_name: "Node.js, JavaScript",
+    icon: img6,
+    iconBg: "#383E56",
+    date: "Aug 2023 - Sept 2023",
+    points: [
+      "Engineered Node.js CLI simplifies organization, offering time-saving solutions for file clutter.",
+      "Node.js tool organizes files, intelligently categorizing clutter into structured folders.",
+      "JavaScript streamlines file sorting, creating a neatly organized directory for users.",
+      "Users save 3 hours weekly through the tool's efficient file management capabilities.",
+    ],
+  },
+  {
+    title: "Amazon Price Tracker",
+    company_name: "Node.js, JavaScript",
+    icon: img7,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Feb 2022",
+    points: [
+      "Node.js script with Puppeteer tracks Amazon favorites, enhancing user experience seamlessly.",
+      "JavaScript and NodeMailer merge for efficient notifications and personalized tracking updates.",
+      "CLI tool streamlines product tracking, offering users a simplified, efficient experience.",
+      "Effortlessly manage favorite films, offering a dynamic and intuitive platform.",
+    ],
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, featuredProjects };
