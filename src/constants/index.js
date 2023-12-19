@@ -191,7 +191,7 @@ const projects = [
   {
     name: "Movix App",
     description:
-      "Experience a cinematic journey with our project! Explore a vast collection of movies from TMDB, curate your favorites, and enjoy seamless login and signup options. Your movie haven awaits!",
+      "Experience a cinematic journey with this project! Explore a vast collection of movies from TMDB, curate your favorites, and enjoy seamless login and signup options. Your movie haven awaits!",
     tags: [
       {
         name: "react",
@@ -216,7 +216,7 @@ const projects = [
   {
     name: "Alan AI News App",
     description:
-      "Step into the future of news! Our React.js News App, fueled by AI, transforms how you engage with headlines—empowering you to control the news effortlessly, simply by using your voice.",
+      "Step into the future of news! This React.js News App, fueled by AI, transforms how you engage with headlines—empowering you to control the news effortlessly, simply by using your voice.",
     tags: [
       {
         name: "reactjs",
