@@ -121,7 +121,20 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "Full Stack Intern",
+    company_name: "Srijan Spectrum Pvt. Ltd",
+    icon: company,
+    iconBg: "#383E56",
+    date: "Feb 2024 - Oct Present",
+    points: [
+      "Collaborated across teams for responsive UI implementation, ensuring optimal performance.",
+      "Crafted seamless user experiences through responsive interface design collaboration.",
+      "Proficiently developed web applications end-to-end using Angular, PHP, CSS, and JavaScript.",
+      "Contributed to the full-stack development of web applications with expertise in Angular, PHP, CSS, and JavaScript.",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
     company_name: "Tata Power DDL",
     icon: company,
     iconBg: "#383E56",
