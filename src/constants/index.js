@@ -125,7 +125,7 @@ const experiences = [
     company_name: "Srijan Spectrum Pvt. Ltd",
     icon: company,
     iconBg: "#383E56",
-    date: "Feb 2024 - Oct Present",
+    date: "Feb 2024 - Present",
     points: [
       "Collaborated across teams for responsive UI implementation, ensuring optimal performance.",
       "Crafted seamless user experiences through responsive interface design collaboration.",
