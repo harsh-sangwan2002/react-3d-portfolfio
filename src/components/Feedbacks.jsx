@@ -45,16 +45,16 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className={`mt-12 bg-black-100 rounded-[30px]`}>
+    <div className={`mt-10 bg-black-200 rounded-[30px] max-h-[1200px]`}>
       <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px] min-w-[200px]`}
+        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[50px] min-w-[200px]`}
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>
           <h2 className={styles.sectionHeadText}>Testimonials.</h2>
         </motion.div>
       </div>
-      <div style={{display:'flex', justifyContent:'space-between', minWidth:'300px'}}>
+      <div style={{display:'flex', justifyContent:'space-around', minWidth:'300px'}}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
