@@ -28,7 +28,7 @@ const ProjectCard = ({ experience }) => {
                     <img
                         src={experience.icon}
                         alt={experience.company_name}
-                        className='w-[60%] h-[60%] object-contain'
+                        style={{borderRadius:'50%', objectFit:'cover', width:'100%', height:'100%'}}
                     />
                 </div>
             }

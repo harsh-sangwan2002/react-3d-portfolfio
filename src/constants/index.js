@@ -28,6 +28,11 @@ import img4 from '../assets/img4.png';
 import img5 from '../assets/img5.png';
 import img6 from '../assets/img6.png';
 import img7 from '../assets/img7.png';
+import fiverr from '../assets/fiverr.png';
+import disney from '../assets/disney.png';
+import fileSystem from '../assets/fileSystem.png';
+import admin from '../assets/admin.png';
+import fashion_nest from '../assets/fashion_nest.png';
 import company from '../assets/company.jpg';
 
 export const navLinks = [
@@ -47,7 +52,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
@@ -55,7 +60,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
@@ -125,12 +130,11 @@ const experiences = [
     company_name: "Tata Power DDL",
     icon: company,
     iconBg: "#383E56",
-    date: "Aug 2021 - Oct 2021",
+    date: "Aug 2022 - Oct 2022",
     points: [
-      "Developing and maintaining web applications using .Net and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Architected and implemented a dynamic web platform with secure user authentication, boosting userengagement by 30% and reducing bounce rate by 25%.",
+      "Leveraged ASP.NET, C#, and MVC to develop a scalable web app handling 5,000+ users and 1,000+transactions per minute.",
+      "Conducted unit and integration testing, achieving 95% code coverage, and decreasing post-release bugsby 40%, ensuring high code quality.",
     ],
   },
 ];
@@ -138,35 +142,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Harsh is talented, smart, hard-working guy. He is always keen to learn something new, work on new projects and coming up with new ideas. He is a great young man who has got a great attitude, the skill and the will to succeed at the task in hand. He is absolutely humble in what he does and a great team player.",
+    name: "Vinay Dabas",
+    designation: "Senior Solution Architect",
+    company: "Ping Identity",
+    image: "https://www.kuppingercole.com/pics/croppedImg_202101291704.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Harsh is a highly talented and dedicated software engineer with an extensive knowledge of programming languages and a stellar track record of producing enterprise level scalable applications. His commitment to producing clean, maintainable code greatly contributes to the long-term success of the projects he works on.",
+    name: "Arvind Sangwan",
+    designation: "Software Engineer",
+    company: "CMPA",
+    image: "https://media.licdn.com/dms/image/D5603AQGcVDwJnjNUoQ/profile-displayphoto-shrink_200_200/0/1673044415007?e=2147483647&v=beta&t=YiULChXOOnoQkyniByZwwnyF_y8xpmu25w-jNZPbfxg",
   },
 ];
 
 const projects = [
   {
-    name: "Fiverr Shop",
+    name: "Fiverr",
     description:
-      "Discover an online shopping paradise! Explore and buy your beloved products effortlessly on our sleek e-commerce platform. Your favorite items are just a click away. Dive in and indulge today!",
+      "Engineered a full-stack web application, Fiverr, achieving a Largest Contentful Paint (LCP) of less than 1second for enhanced user experience. Implemented server-side functionality with Node.js and Mongoose, maintaining 98% uptime for optimalperformance.",
     tags: [
       {
         name: "react.js",
@@ -185,82 +181,77 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: img3,
-    source_code_link: "https://github.com/harsh-sangwan2003/fiverr-shop",
+    image: fiverr,
+    source_code_link: "https://github.com/harsh-sangwan2003/fiverr",
   },
   {
-    name: "Movix App",
+    name: "Disney Flix",
     description:
-      "Experience a cinematic journey with this project! Explore a vast collection of movies from TMDB, curate your favorites, and enjoy seamless login and signup options. Your movie haven awaits!",
+      "Developed Disney Flix, a full-stack web application, enhancing load speed by 40% and achieving a 0.01 CLS score. Integrated Firebase for authentication, real-time database, and hosting to ensure seamless and secure user interactions.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tmdbapi",
+        name: "redux",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
       {
         name: "firebase",
         color: "green-text-gradient",
       },
+      {
+        name: "styled-components",
+        color: "pink-text-gradient",
+      },
+
     ],
-    image: img2,
-    source_code_link: "https://github.com/harsh-sangwan2003/movix-app",
+    image: disney,
+    source_code_link: "https://github.com/harsh-sangwan2003/100-days-web-dev/tree/main/ReactJS/Projects/disney-flix",
   },
   {
-    name: "Alan AI News App",
+    name: "File System Organizer",
     description:
-      "Step into the future of news! This React.js News App, fueled by AI, transforms how you engage with headlines—empowering you to control the news effortlessly, simply by using your voice.",
+      "Engineered File System Organizer, a command line tool using Node.js and JavaScript, to streamline file organization. Implemented intelligent categorization and sorting, creating a neatly structured folder system, and saved users an average of 3 hours per week.",
     tags: [
       {
-        name: "reactjs",
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "alan ai",
+        name: "javascript",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: img1,
-    source_code_link: "https://github.com/harsh-sangwan2003/alan-ai-news-app",
+    image: fileSystem,
+    source_code_link: "https://github.com/harsh-sangwan2003/File-System-Organizer",
   },
 ];
 
 const featuredProjects = [
   {
-    title: "Movix App",
-    company_name: "React.js, Firebase, JSX, SCSS",
-    icon: img4,
+    title: "Fashion Nest",
+    company_name: "React.js, Node.js, Express, Styled-Components",
+    icon: fashion_nest,
     iconBg: "#383E56",
     date: "Oct 2023 - Nov 2023",
     points: [
-      "Utilizing TMDb API, curate movies in project, managed via React.js.",
-      "Enhanced with react-router-dom, ensuring seamless navigation and interaction.",
-      "CSS stylizes interface, delivering an engaging, visually appealing user experience.",
-      "Effortlessly manage favorite films, offering a dynamic and intuitive platform.",
+      "Developed Fashion-Nest, an online e-commerce web application for clothes, using React, Node.js, and Mongoose for a seamless shopping experience.",
+      "Implemented JWT authentication for secure user sessions and integrated Styled-Components for a modern, responsive design.",
+      "Achieved a streamlined user interface and efficient data handling, enhancing the overall shopping experience.",
     ],
   },
   {
-    title: "Portfolio Website",
-    company_name: "HTML, JavaScript, SCSS",
-    icon: img5,
+    title: "Admin Dashboard",
+    company_name: "React.js, SCSS, Firebase, recharts",
+    icon: admin,
     iconBg: "#383E56",
     date: "Sept 2023 - Oct 2023",
     points: [
-      "This HTML-based site showcases projects, emphasizing creativity and clean design aesthetics.",
-      "JavaScript enhances interactivity, providing smooth animations and user-friendly functionalities.",
-      "SCSS elevates style with custom, modular components for a visually appealing layout",
-      "The portfolio website merges HTML, SCSS, and JS for a seamless, interactive experience.",
+      "Crafted an admin dashboard using React and Firebase, providing a comprehensive interface for managing and analyzing data.",
+      "Designed a responsive and intuitive UI with SCSS, ensuring a smooth and user-friendly experience for administrators.",
+      "Integrated Firebase for real-time updates and secure data handling, enhancing overall functionality and performance.",,
     ],
   },
   {
