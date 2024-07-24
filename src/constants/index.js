@@ -159,7 +159,7 @@ const projects = [
 
     ],
     image: disney,
-    source_code_link: "https://github.com/harsh-sangwan2003/100-days-web-dev/tree/main/ReactJS/Projects/disney-flix",
+    source_code_link: "https://github.com/harsh-sangwan2003/100-days-web-dev/tree/main/ReactJS/Projects/disney-clone",
   },
   {
     name: "Fiverr",
