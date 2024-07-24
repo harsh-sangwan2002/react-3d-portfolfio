@@ -1,7 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -15,17 +12,8 @@ import {
   git,
   figma,
   docker,
-  starbucks,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
-import img1 from '../assets/img1.png';
-import img2 from '../assets/img2.png';
-import img3 from '../assets/img3.png';
-import img4 from '../assets/img4.png';
-import img5 from '../assets/img5.png';
 import img6 from '../assets/img6.png';
 import img7 from '../assets/img7.png';
 import fiverr from '../assets/fiverr.png';
@@ -52,20 +40,8 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Software Engineer",
+    title: "Aspiring Software Developer",
     icon: web,
-  },
-  {
-    title: "Full Stack Developer",
-    icon: mobile,
-  },
-  {
-    title: "Frontend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -132,9 +108,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Aug 2022 - Oct 2022",
     points: [
-      "Architected and implemented a dynamic web platform with secure user authentication, boosting userengagement by 30% and reducing bounce rate by 25%.",
-      "Leveraged ASP.NET, C#, and MVC to develop a scalable web app handling 5,000+ users and 1,000+transactions per minute.",
-      "Conducted unit and integration testing, achieving 95% code coverage, and decreasing post-release bugsby 40%, ensuring high code quality.",
+      "Engineered a comprehensive web application for Tata Power DDL employees, streamlining internal processes, and reducing average task completion time by 20%.",
+      "Constructed robust back-end functionality using ASP.NET and C# with JavaScript and Bootstrap for responsive front-end design.",
+      "Incorporated secure user authentication using Firebase, reducing unauthorized access incidents by 30%.",
     ],
   },
 ];
@@ -160,34 +136,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Fiverr",
+    name: "Disney+ Clone",
     description:
-      "Engineered a full-stack web application, Fiverr, achieving a Largest Contentful Paint (LCP) of less than 1second for enhanced user experience. Implemented server-side functionality with Node.js and Mongoose, maintaining 98% uptime for optimalperformance.",
-    tags: [
-      {
-        name: "react.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: fiverr,
-    source_code_link: "https://github.com/harsh-sangwan2003/fiverr",
-  },
-  {
-    name: "Disney Flix",
-    description:
-      "Developed Disney Flix, a full-stack web application, enhancing load speed by 40% and achieving a 0.01 CLS score. Integrated Firebase for authentication, real-time database, and hosting to ensure seamless and secure user interactions.",
+      "Engineered a Full-stack web application, improving load speed by 40% and achieving a 0.01 CLS score for enhanced user experience. Shaped an engaging and responsive user interface using Styled-Components.",
     tags: [
       {
         name: "react",
@@ -211,9 +162,34 @@ const projects = [
     source_code_link: "https://github.com/harsh-sangwan2003/100-days-web-dev/tree/main/ReactJS/Projects/disney-flix",
   },
   {
+    name: "Fiverr",
+    description:
+      "Designed a Full-stack web application, optimizing page load times to achieve an average First Contentful Paint (FCP) of less than 500 milliseconds for enhanced user experience. Achieved an average RESTful API response time of 50 milliseconds using Node.js and Express.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: fiverr,
+    source_code_link: "https://github.com/harsh-sangwan2003/fiverr",
+  },
+  {
     name: "File System Organizer",
     description:
-      "Engineered File System Organizer, a command line tool using Node.js and JavaScript, to streamline file organization. Implemented intelligent categorization and sorting, creating a neatly structured folder system, and saved users an average of 3 hours per week.",
+      "Engineered a command line tool using Node.js and JavaScript to streamline file organization, improving workflow efficiency. Achieved a weekly time savings of 3 hours per user through automated file management, boosting overall productivity by 20%.",
     tags: [
       {
         name: "nodejs",
