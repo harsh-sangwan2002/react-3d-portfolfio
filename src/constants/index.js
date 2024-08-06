@@ -237,7 +237,7 @@ const featuredProjects = [
     points: [
       "Crafted an admin dashboard using React and Firebase, providing a comprehensive interface for managing and analyzing data.",
       "Designed a responsive and intuitive UI with SCSS, ensuring a smooth and user-friendly experience for administrators.",
-      "Integrated Firebase for real-time updates and secure data handling, enhancing overall functionality and performance.",,
+      "Integrated Firebase for real-time updates and secure data handling, enhancing overall functionality and performance.", ,
     ],
   },
   {
