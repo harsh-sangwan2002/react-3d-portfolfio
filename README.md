@@ -2,7 +2,7 @@
 
 ## Live Website
 
-- [Link](https://react3dportfolio-harsh.netlify.app/)
+- [Link](https://harsh-react-portfolio.netlify.app/)
 
 A quick guide to my Project ->
 
